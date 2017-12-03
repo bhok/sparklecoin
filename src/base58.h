@@ -278,8 +278,8 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 63,  // sparklecoin: addresses begin with 'S'
-        SCRIPT_ADDRESS = 125, // sparklecoin: addresses begin with 's'
+        PUBKEY_ADDRESS = 18,  // sparklecoin: addresses begin with '8'
+        SCRIPT_ADDRESS = 58, // sparklecoin: addresses begin with 'Q'
         PUBKEY_ADDRESS_TEST = 127,
         SCRIPT_ADDRESS_TEST = 196,
     };
